@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.site-navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form_sesion {
+    width: 80%;
+    margin: 20px auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+/* Estilos para los campos del formulario */
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los botones */
+input[type="submit"],
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para el pie de página */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info,
+.footer-contact-form {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footer-info h5,
+.footer-contact-form h5 {
+    color: #4caf50;
+}
+
+/* Estilos para el formulario de contacto en el pie de página */
+.contact-form__input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form__input input {
+    width: 48%;
+}
+
+textarea {
+    width: 100%;
+}
+
+/* Estilos para las redes sociales en el pie de página */
+.social-icons a {
+    margin-right: 10px;
+}
+
+/* Estilos para el fondo del pie de página */
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #fff;
+}
+
+.footer-bottom img {
+    margin-right: 10px;
+}

@@ -1,0 +1,198 @@
+body{
+    background-image: black;  
+  }
+  header{
+      background-color: rgb(46, 46, 46);
+  }
+  header img{
+      float: left;
+      width: 8%;
+  }
+  header h1{
+      font-size: 2.0vw;
+      text-align:center;
+      width: 80%;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      padding: 12px;
+      background-color: rgb(46, 46, 46);
+      display: inline-block;
+  }
+  h2{
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 3.0vw;
+      text-decoration: none;
+      color: black;
+      padding: 9px px;
+  
+      display: inline-block;
+      width: 100%;
+  }
+  h3{
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 1.0vw;
+      text-decoration: none;
+      color: black;
+      padding: 9px 9px;
+      background-color:white;
+      display: inline-block;
+      width: 100%;
+  }
+  *{
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .encabezadosesion{
+      width: 100%;
+      height: auto;
+  }
+  
+  .encabezadosesion_log{
+      float:left;
+      width: 16%;
+      margin-bottom: 2%;
+  }
+  .form_sesion{
+      width: 100%;
+      margin: auto;
+  }
+  .form_sesion form{
+      width: 55%;
+      margin: 2% auto;
+      height: 610px; 
+      text-align: cen;
+      background-color: white;
+      padding: 2%;
+      border-radius: 4px;
+  }
+  .form_sesion input{
+      width: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: darkcyan;
+      text-align: left;
+      font-size: 20px; 
+      padding: 2.5;
+      border: 1px solid;
+      border-radius: 3px;
+  }
+  .icons {
+      width: 150px;
+      height: 150px;
+  
+  }
+  #enviar1{
+      width: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 20px; 
+      border: 1px solid;
+      text-decoration: none;
+      color: white;
+      padding: 9px 9px;
+      background-color:rgb(119, 77, 255);
+      display: inline-block;
+      border-radius: 3px;
+  }
+  #enviar1:hover{
+      background-color: gray;
+      color:lightskyblue;
+      transition: .5s ease;
+  }
+  .footer {
+      background-color: black;
+      padding: 80px 0;
+  }
+  
+  .footer-row{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .footer-links {
+      width: 25%;
+      padding: 0 15px;
+  }
+  
+  .footer-links h4 {
+      font-size: 20px;
+      color: white;
+      margin-bottom: 25px;
+      font-weight: 500;
+      border-bottom: 2px solid rgba(98, 77, 255, 0.781) ;
+      padding-bottom: 10px;
+      display: inline-block;
+  }
+  .footer-links ul li a {
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      display: block;
+      margin-bottom:  15px;
+      transition:  all .3s ease;
+  }
+  .footer-links ul li i {
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      display: block;
+      margin-bottom:  15px;
+      transition:  all .3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+      color: rgba(98, 77, 255, 0.781) ;
+      padding-left: 6px;
+  }
+  
+  .social-links a{
+      display: inline-block;
+      min-height: 40px;
+      background-color: white;
+      margin: 0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: blanchedalmond;
+      transition: all .5s ease;
+  }
+  
+  .social-links a:hover{
+      background-color: blue;
+  }
+  @media(max-width:991px){
+      .footer-row{
+          text-align: center;
+      }
+      .footer-links{
+          width: 100%;
+          margin-bottom: 30px;
+      }
+  }
+  
+  label{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: gray;
+      font-size: 20px;
+  }
+  option{
+      color: darkcyan;
+  }
+  select{
+      color: darkcyan;
+      font-size: 18px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  legend{
+      color: rgb(255, 77, 255) ;
+      font-size: 24px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  textarea{
+      color: darkcyan;
+      font-size: 18px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 50%;
+      
+  }
